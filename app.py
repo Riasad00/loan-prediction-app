@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 import numpy as np
-pip install numpy --upgrade
+pip install numpy
 
 
 # Load trained model
