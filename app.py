@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import numpy as np
 
-
+pip install --upgrade pip
 
 # Load trained model
 model = joblib.load('loan_model.joblib')
