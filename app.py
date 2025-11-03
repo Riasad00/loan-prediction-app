@@ -1,9 +1,9 @@
 import streamlit as st
-import pickle
+import joblib
 import numpy as np
 
 # Load trained model
-model = pickle.load(open("loan_model.pkl", "rb"))
+model = joblib.load('loan_model.joblib')
 
 st.title("🏦 Loan Approval Prediction App")
 
