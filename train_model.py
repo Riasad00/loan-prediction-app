@@ -4,6 +4,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
 import numpy as np
+pip install numpy --upgrade
+
 
 # Load the dataset
 df = pd.read_csv('/kaggle/input/loan-approvaldataset/train_u6lujuX_CVtuZ9i (1).csv')
